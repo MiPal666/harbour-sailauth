@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="cs_CZ">
 <context>
     <name>AboutPage</name>
     <message>
@@ -320,6 +320,8 @@ Všechny kódy a účty zůstávají ve vašem zařízení.</translation>
         <source>%n account restored</source>
         <translation>
             <numerusform>%n účet obnoven</numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -373,6 +375,8 @@ Všechny kódy a účty zůstávají ve vašem zařízení.</translation>
         <source>Restore %n account</source>
         <translation>
             <numerusform>Obnovit %n účet</numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
 </context>
@@ -472,6 +476,8 @@ Všechny kódy a účty zůstávají ve vašem zařízení.</translation>
         <source>%n account imported</source>
         <translation>
             <numerusform>%n účet importován</numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -539,6 +545,8 @@ Všechny kódy a účty zůstávají ve vašem zařízení.</translation>
         <source>Import %n account</source>
         <translation>
             <numerusform>Importovat %n účet</numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
 </context>
@@ -663,32 +671,52 @@ Všechny kódy a účty zůstávají ve vašem zařízení.</translation>
         <translation>Přehrát zvuk při zkopírování kódu</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="38"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="40"/>
+        <source>Account order</source>
+        <translation>Řazení účtů</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="44"/>
+        <source>Custom</source>
+        <translation>Původní pořadí</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="45"/>
+        <source>A–Z</source>
+        <translation>A–Z</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="46"/>
+        <source>Z–A</source>
+        <translation>Z–A</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="56"/>
         <source>Data</source>
         <translation>Data</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="43"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="61"/>
         <source>Export backup</source>
         <translation>Exportovat zálohu</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="53"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="71"/>
         <source>Import backup</source>
         <translation>Importovat zálohu</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="63"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="81"/>
         <source>Accounts are stored only in this device&apos;s app data directory. Nothing is uploaded anywhere.</source>
         <translation>Účty jsou uloženy pouze v datech aplikace na tomto zařízení. Nikam se nic neodesílá.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="70"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="88"/>
         <source>About</source>
         <translation>O aplikaci</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="75"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="93"/>
         <source>About SailAuth</source>
         <translation>O aplikaci SailAuth</translation>
     </message>

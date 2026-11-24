@@ -37,13 +37,13 @@ Page {
             ComboBox {
                 id: sortModeCombo
                 width: parent.width
-                label: "Account order"
+                label: qsTr("Account order")
                 currentIndex: settings.sortMode
 
                 menu: ContextMenu {
-                    MenuItem { text: "Custom" }
-                    MenuItem { text: "A–Z" }
-                    MenuItem { text: "Z–A" }
+                    MenuItem { text: qsTr("Custom") }
+                    MenuItem { text: qsTr("A–Z") }
+                    MenuItem { text: qsTr("Z–A") }
                 }
 
                 onCurrentIndexChanged: {
